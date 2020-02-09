@@ -716,3 +716,123 @@ Type "help", "copyright", "credits" or "license" for more information.
 #
 base                     C:\ProgramData\Anaconda3
 envopencv-env         *  C:\ProgramData\Anaconda3\envs\envopencv-env
+
+(envopencv-env) C:\Windows\system32>conda install -c conda-forge autopep8
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\ProgramData\Anaconda3\envs\envopencv-env
+
+  added / updated specs:
+    - autopep8
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pycodestyle-2.5.0          |             py_0          36 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:          36 KB
+
+The following NEW packages will be INSTALLED:
+
+  autopep8           conda-forge/noarch::autopep8-1.5-py_0
+  pycodestyle        conda-forge/noarch::pycodestyle-2.5.0-py_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+pycodestyle-2.5.0    | 36 KB     | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(envopencv-env) C:\Windows\system32>conda install -c conda-forge imutils
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\ProgramData\Anaconda3\envs\envopencv-env
+
+  added / updated specs:
+    - imutils
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    imutils-0.5.3              |           py37_0          54 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:          54 KB
+
+The following NEW packages will be INSTALLED:
+
+  imutils            conda-forge/win-64::imutils-0.5.3-py37_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+imutils-0.5.3        | 54 KB     | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+
+
+(envopencv-env) C:\Windows\system32>conda install pillow
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\ProgramData\Anaconda3\envs\envopencv-env
+
+  added / updated specs:
+    - pillow
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2020.1.1   |                0         125 KB
+    certifi-2019.11.28         |           py37_0         154 KB
+    pillow-7.0.0               |   py37hcc1f983_0         646 KB
+    ------------------------------------------------------------
+                                           Total:         924 KB
+
+The following NEW packages will be INSTALLED:
+
+  olefile            pkgs/main/win-64::olefile-0.46-py37_0
+  pillow             pkgs/main/win-64::pillow-7.0.0-py37hcc1f983_0
+  tk                 pkgs/main/win-64::tk-8.6.8-hfa6e2cd_0
+
+The following packages will be UPDATED:
+
+  ca-certificates    conda-forge::ca-certificates-2019.11.~ --> pkgs/main::ca-certificates-2020.1.1-0
+  openssl            conda-forge::openssl-1.1.1d-hfa6e2cd_0 --> pkgs/main::openssl-1.1.1d-he774522_3
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi                                       conda-forge --> pkgs/main
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+ca-certificates-2020 | 125 KB    | ############################################################################ | 100%
+pillow-7.0.0         | 646 KB    | ############################################################################ | 100%
+certifi-2019.11.28   | 154 KB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
